@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E148C262AADBD8F00B2A4DD /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E148C252AADBD8F00B2A4DD /* IndicatorView.swift */; };
+		3E148C282AADCCE800B2A4DD /* IndicatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E148C272AADCCE800B2A4DD /* IndicatorViewModel.swift */; };
+		3E148C2A2AADCDD400B2A4DD /* IndicatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E148C292AADCDD400B2A4DD /* IndicatorModel.swift */; };
+		3E148C2C2AADD89000B2A4DD /* TabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E148C2B2AADD89000B2A4DD /* TabViewModel.swift */; };
+		3E148C2E2AADF39900B2A4DD /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E148C2D2AADF39900B2A4DD /* NotificationView.swift */; };
+		3E148C302AADFB2C00B2A4DD /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E148C2F2AADFB2C00B2A4DD /* NotificationViewModel.swift */; };
+		3E431C102AAC626D001C5AB1 /* ScrollViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E431C0F2AAC626D001C5AB1 /* ScrollViewTest.swift */; };
+		3E431C122AAC6A82001C5AB1 /* VIPTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E431C112AAC6A82001C5AB1 /* VIPTag.swift */; };
+		3E431C142AAC7026001C5AB1 /* ButtonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E431C132AAC7026001C5AB1 /* ButtonTest.swift */; };
+		3E431C162AAC74BF001C5AB1 /* WechatPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E431C152AAC74BF001C5AB1 /* WechatPost.swift */; };
+		3E431C182AAC7C4B001C5AB1 /* ToggleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E431C172AAC7C4B001C5AB1 /* ToggleTest.swift */; };
+		3E431C1A2AAC7E76001C5AB1 /* TextFieldTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E431C192AAC7E76001C5AB1 /* TextFieldTest.swift */; };
+		3E431C1D2AAC8537001C5AB1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E431C1C2AAC8537001C5AB1 /* Home.swift */; };
+		3E431C1F2AAC89F6001C5AB1 /* WechatPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E431C1E2AAC89F6001C5AB1 /* WechatPractice.swift */; };
+		3E431C212AAC8A06001C5AB1 /* SystemPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E431C202AAC8A06001C5AB1 /* SystemPractice.swift */; };
+		3E431C252AACAFBA001C5AB1 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E431C242AACAFBA001C5AB1 /* SettingView.swift */; };
+		3E431C282AACB9E5001C5AB1 /* Modifers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E431C272AACB9E5001C5AB1 /* Modifers.swift */; };
+		3E7385BE2AADB6ED0070E66F /* SwiftUIManual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7385BD2AADB6ED0070E66F /* SwiftUIManual.swift */; };
+		3E967DDD2AA4789E002919F5 /* WechatMineTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E967DDC2AA4789E002919F5 /* WechatMineTimeline.swift */; };
+		3E967DDF2AA4A05F002919F5 /* WechatPublicTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E967DDE2AA4A05F002919F5 /* WechatPublicTimeline.swift */; };
+		3E967DE12AA4BF5A002919F5 /* ListViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E967DE02AA4BF5A002919F5 /* ListViewTest.swift */; };
+		3E967DE92AA4CD6E002919F5 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E967DE82AA4CD6E002919F5 /* PostModel.swift */; };
+		3E967DEC2AA4CF5B002919F5 /* postGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E967DEB2AA4CF5B002919F5 /* postGenerator.swift */; };
+		3EAB420F2A9A4B7E005C3A67 /* ImageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB420E2A9A4B7E005C3A67 /* ImageTest.swift */; };
+		3EAB42112A9A5399005C3A67 /* SFSymbolTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB42102A9A5399005C3A67 /* SFSymbolTest.swift */; };
+		3EAB42152A9B66A7005C3A67 /* Oxygen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB42122A9B66A7005C3A67 /* Oxygen-Regular.ttf */; };
+		3EAB42162A9B66A7005C3A67 /* Oxygen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB42132A9B66A7005C3A67 /* Oxygen-Bold.ttf */; };
+		3EAB42172A9B66A7005C3A67 /* Oxygen-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB42142A9B66A7005C3A67 /* Oxygen-Light.ttf */; };
+		3EC440CD2A9213AD0000391E /* helloworldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC440CC2A9213AD0000391E /* helloworldApp.swift */; };
+		3EC440CF2A9213AD0000391E /* WeChatBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC440CE2A9213AD0000391E /* WeChatBill.swift */; };
+		3EC440D12A9213AF0000391E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC440D02A9213AF0000391E /* Assets.xcassets */; };
+		3EC440D52A9213AF0000391E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC440D42A9213AF0000391E /* Preview Assets.xcassets */; };
+		3EC440DC2A923BB00000391E /* VStackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC440DB2A923BB00000391E /* VStackTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E148C252AADBD8F00B2A4DD /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		3E148C272AADCCE800B2A4DD /* IndicatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorViewModel.swift; sourceTree = "<group>"; };
+		3E148C292AADCDD400B2A4DD /* IndicatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorModel.swift; sourceTree = "<group>"; };
+		3E148C2B2AADD89000B2A4DD /* TabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewModel.swift; sourceTree = "<group>"; };
+		3E148C2D2AADF39900B2A4DD /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		3E148C2F2AADFB2C00B2A4DD /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
+		3E431C0F2AAC626D001C5AB1 /* ScrollViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTest.swift; sourceTree = "<group>"; };
+		3E431C112AAC6A82001C5AB1 /* VIPTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPTag.swift; sourceTree = "<group>"; };
+		3E431C132AAC7026001C5AB1 /* ButtonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTest.swift; sourceTree = "<group>"; };
+		3E431C152AAC74BF001C5AB1 /* WechatPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WechatPost.swift; sourceTree = "<group>"; };
+		3E431C172AAC7C4B001C5AB1 /* ToggleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTest.swift; sourceTree = "<group>"; };
+		3E431C192AAC7E76001C5AB1 /* TextFieldTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTest.swift; sourceTree = "<group>"; };
+		3E431C1C2AAC8537001C5AB1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3E431C1E2AAC89F6001C5AB1 /* WechatPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WechatPractice.swift; sourceTree = "<group>"; };
+		3E431C202AAC8A06001C5AB1 /* SystemPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemPractice.swift; sourceTree = "<group>"; };
+		3E431C242AACAFBA001C5AB1 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		3E431C272AACB9E5001C5AB1 /* Modifers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifers.swift; sourceTree = "<group>"; };
+		3E7385BD2AADB6ED0070E66F /* SwiftUIManual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIManual.swift; sourceTree = "<group>"; };
+		3E967DDC2AA4789E002919F5 /* WechatMineTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WechatMineTimeline.swift; sourceTree = "<group>"; };
+		3E967DDE2AA4A05F002919F5 /* WechatPublicTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WechatPublicTimeline.swift; sourceTree = "<group>"; };
+		3E967DE02AA4BF5A002919F5 /* ListViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewTest.swift; sourceTree = "<group>"; };
+		3E967DE82AA4CD6E002919F5 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		3E967DEB2AA4CF5B002919F5 /* postGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postGenerator.swift; sourceTree = "<group>"; };
+		3EAB420E2A9A4B7E005C3A67 /* ImageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTest.swift; sourceTree = "<group>"; };
+		3EAB42102A9A5399005C3A67 /* SFSymbolTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolTest.swift; sourceTree = "<group>"; };
+		3EAB42122A9B66A7005C3A67 /* Oxygen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Regular.ttf"; sourceTree = "<group>"; };
+		3EAB42132A9B66A7005C3A67 /* Oxygen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Bold.ttf"; sourceTree = "<group>"; };
+		3EAB42142A9B66A7005C3A67 /* Oxygen-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Light.ttf"; sourceTree = "<group>"; };
+		3EAB42182A9B671D005C3A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3EC440C92A9213AD0000391E /* helloworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC440CC2A9213AD0000391E /* helloworldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldApp.swift; sourceTree = "<group>"; };
+		3EC440CE2A9213AD0000391E /* WeChatBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatBill.swift; sourceTree = "<group>"; };
+		3EC440D02A9213AF0000391E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EC440D22A9213AF0000391E /* helloworld.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = helloworld.entitlements; sourceTree = "<group>"; };
+		3EC440D42A9213AF0000391E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EC440DB2A923BB00000391E /* VStackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EC440C62A9213AD0000391E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E431C1B2AAC8511001C5AB1 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				3E431C1E2AAC89F6001C5AB1 /* WechatPractice.swift */,
+				3E431C222AACA218001C5AB1 /* SubView */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		3E431C222AACA218001C5AB1 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				3EC440CE2A9213AD0000391E /* WeChatBill.swift */,
+				3E967DDC2AA4789E002919F5 /* WechatMineTimeline.swift */,
+				3E967DDE2AA4A05F002919F5 /* WechatPublicTimeline.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		3E431C232AACA47C001C5AB1 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				3EAB420E2A9A4B7E005C3A67 /* ImageTest.swift */,
+				3E431C132AAC7026001C5AB1 /* ButtonTest.swift */,
+				3E431C172AAC7C4B001C5AB1 /* ToggleTest.swift */,
+				3E431C192AAC7E76001C5AB1 /* TextFieldTest.swift */,
+				3EC440DB2A923BB00000391E /* VStackTest.swift */,
+				3E967DE02AA4BF5A002919F5 /* ListViewTest.swift */,
+				3E431C0F2AAC626D001C5AB1 /* ScrollViewTest.swift */,
+				3E431C112AAC6A82001C5AB1 /* VIPTag.swift */,
+				3E431C152AAC74BF001C5AB1 /* WechatPost.swift */,
+				3EAB42102A9A5399005C3A67 /* SFSymbolTest.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		3E431C262AACB9C1001C5AB1 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				3E431C272AACB9E5001C5AB1 /* Modifers.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		3E7385BC2AADB6C60070E66F /* SwiftUIManual */ = {
+			isa = PBXGroup;
+			children = (
+				3E7385BD2AADB6ED0070E66F /* SwiftUIManual.swift */,
+				3E148C252AADBD8F00B2A4DD /* IndicatorView.swift */,
+			);
+			path = SwiftUIManual;
+			sourceTree = "<group>";
+		};
+		3E967DE22AA4CC6F002919F5 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				3E967DE42AA4CC80002919F5 /* Model */,
+				3E967DE32AA4CC7A002919F5 /* View */,
+				3E967DE52AA4CC85002919F5 /* ViewModel */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		3E967DE32AA4CC7A002919F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E431C1C2AAC8537001C5AB1 /* Home.swift */,
+				3E148C2D2AADF39900B2A4DD /* NotificationView.swift */,
+				3E431C242AACAFBA001C5AB1 /* SettingView.swift */,
+				3E7385BC2AADB6C60070E66F /* SwiftUIManual */,
+				3E431C1B2AAC8511001C5AB1 /* WeChat */,
+				3E967DE72AA4CCE9002919F5 /* Test */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E967DE42AA4CC80002919F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E967DE82AA4CD6E002919F5 /* PostModel.swift */,
+				3E148C292AADCDD400B2A4DD /* IndicatorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E967DE52AA4CC85002919F5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3E148C2B2AADD89000B2A4DD /* TabViewModel.swift */,
+				3E148C272AADCCE800B2A4DD /* IndicatorViewModel.swift */,
+				3E148C2F2AADFB2C00B2A4DD /* NotificationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3E967DE62AA4CCBB002919F5 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EAB42132A9B66A7005C3A67 /* Oxygen-Bold.ttf */,
+				3EAB42142A9B66A7005C3A67 /* Oxygen-Light.ttf */,
+				3EAB42122A9B66A7005C3A67 /* Oxygen-Regular.ttf */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		3E967DE72AA4CCE9002919F5 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				3E431C202AAC8A06001C5AB1 /* SystemPractice.swift */,
+				3E431C232AACA47C001C5AB1 /* SubView */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		3E967DEA2AA4CF1C002919F5 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				3E431C262AACB9C1001C5AB1 /* ViewModifier */,
+				3E967DEB2AA4CF5B002919F5 /* postGenerator.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		3EC440C02A9213AD0000391E = {
+			isa = PBXGroup;
+			children = (
+				3EC440CB2A9213AD0000391E /* helloworld */,
+				3EC440CA2A9213AD0000391E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EC440CA2A9213AD0000391E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EC440C92A9213AD0000391E /* helloworld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EC440CB2A9213AD0000391E /* helloworld */ = {
+			isa = PBXGroup;
+			children = (
+				3EC440CC2A9213AD0000391E /* helloworldApp.swift */,
+				3EAB42182A9B671D005C3A67 /* Info.plist */,
+				3EC440D02A9213AF0000391E /* Assets.xcassets */,
+				3EC440D22A9213AF0000391E /* helloworld.entitlements */,
+				3E967DE22AA4CC6F002919F5 /* MVVM */,
+				3E967DEA2AA4CF1C002919F5 /* Tool */,
+				3E967DE62AA4CCBB002919F5 /* Files */,
+				3EC440D32A9213AF0000391E /* Preview Content */,
+			);
+			path = helloworld;
+			sourceTree = "<group>";
+		};
+		3EC440D32A9213AF0000391E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3EC440D42A9213AF0000391E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EC440C82A9213AD0000391E /* helloworld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC440D82A9213AF0000391E /* Build configuration list for PBXNativeTarget "helloworld" */;
+			buildPhases = (
+				3EC440C52A9213AD0000391E /* Sources */,
+				3EC440C62A9213AD0000391E /* Frameworks */,
+				3EC440C72A9213AD0000391E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloworld;
+			productName = helloworld;
+			productReference = 3EC440C92A9213AD0000391E /* helloworld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EC440C12A9213AD0000391E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3EC440C82A9213AD0000391E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3EC440C42A9213AD0000391E /* Build configuration list for PBXProject "helloworld" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EC440C02A9213AD0000391E;
+			productRefGroup = 3EC440CA2A9213AD0000391E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EC440C82A9213AD0000391E /* helloworld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EC440C72A9213AD0000391E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAB42152A9B66A7005C3A67 /* Oxygen-Regular.ttf in Resources */,
+				3EC440D52A9213AF0000391E /* Preview Assets.xcassets in Resources */,
+				3EC440D12A9213AF0000391E /* Assets.xcassets in Resources */,
+				3EAB42162A9B66A7005C3A67 /* Oxygen-Bold.ttf in Resources */,
+				3EAB42172A9B66A7005C3A67 /* Oxygen-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EC440C52A9213AD0000391E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAB42112A9A5399005C3A67 /* SFSymbolTest.swift in Sources */,
+				3E431C252AACAFBA001C5AB1 /* SettingView.swift in Sources */,
+				3E148C2C2AADD89000B2A4DD /* TabViewModel.swift in Sources */,
+				3E967DE92AA4CD6E002919F5 /* PostModel.swift in Sources */,
+				3E431C182AAC7C4B001C5AB1 /* ToggleTest.swift in Sources */,
+				3EC440CF2A9213AD0000391E /* WeChatBill.swift in Sources */,
+				3E431C212AAC8A06001C5AB1 /* SystemPractice.swift in Sources */,
+				3E431C162AAC74BF001C5AB1 /* WechatPost.swift in Sources */,
+				3E148C262AADBD8F00B2A4DD /* IndicatorView.swift in Sources */,
+				3E967DDD2AA4789E002919F5 /* WechatMineTimeline.swift in Sources */,
+				3E431C1D2AAC8537001C5AB1 /* Home.swift in Sources */,
+				3E431C282AACB9E5001C5AB1 /* Modifers.swift in Sources */,
+				3EAB420F2A9A4B7E005C3A67 /* ImageTest.swift in Sources */,
+				3E148C282AADCCE800B2A4DD /* IndicatorViewModel.swift in Sources */,
+				3E431C1A2AAC7E76001C5AB1 /* TextFieldTest.swift in Sources */,
+				3E148C2A2AADCDD400B2A4DD /* IndicatorModel.swift in Sources */,
+				3E967DEC2AA4CF5B002919F5 /* postGenerator.swift in Sources */,
+				3E148C302AADFB2C00B2A4DD /* NotificationViewModel.swift in Sources */,
+				3E967DE12AA4BF5A002919F5 /* ListViewTest.swift in Sources */,
+				3E431C102AAC626D001C5AB1 /* ScrollViewTest.swift in Sources */,
+				3E148C2E2AADF39900B2A4DD /* NotificationView.swift in Sources */,
+				3E431C142AAC7026001C5AB1 /* ButtonTest.swift in Sources */,
+				3EC440DC2A923BB00000391E /* VStackTest.swift in Sources */,
+				3EC440CD2A9213AD0000391E /* helloworldApp.swift in Sources */,
+				3E431C122AAC6A82001C5AB1 /* VIPTag.swift in Sources */,
+				3E431C1F2AAC89F6001C5AB1 /* WechatPractice.swift in Sources */,
+				3E967DDF2AA4A05F002919F5 /* WechatPublicTimeline.swift in Sources */,
+				3E7385BE2AADB6ED0070E66F /* SwiftUIManual.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3EC440D62A9213AF0000391E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EC440D72A9213AF0000391E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3EC440D92A9213AF0000391E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = helloworld/helloworld.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"helloworld/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = helloworld/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "马克思";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linglong.demo.helloworld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EC440DA2A9213AF0000391E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = helloworld/helloworld.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"helloworld/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = helloworld/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "马克思";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linglong.demo.helloworld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EC440C42A9213AD0000391E /* Build configuration list for PBXProject "helloworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC440D62A9213AF0000391E /* Debug */,
+				3EC440D72A9213AF0000391E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EC440D82A9213AF0000391E /* Build configuration list for PBXNativeTarget "helloworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC440D92A9213AF0000391E /* Debug */,
+				3EC440DA2A9213AF0000391E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EC440C12A9213AD0000391E /* Project object */;
+}
