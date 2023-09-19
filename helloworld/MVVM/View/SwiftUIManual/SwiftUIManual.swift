@@ -44,6 +44,7 @@ struct SwiftUIManual_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
             SwiftUIManual()
+                .environmentObject(TabViewModel())
         }
     }
 }

@@ -14,7 +14,8 @@ struct Home: View {
     var tabTitles: [String] = [
         "SwiftUI",
         "微信练习",
-        "系统练习"
+        "系统练习",
+        "进阶练习"
     ]
 
     var body: some View {
@@ -24,22 +25,30 @@ struct Home: View {
                     .environmentObject(tabVM)
                     .tabItem {
                         Image(systemName: "swift")
-                        Text("SwiftUI")
+                        Text(tabTitles[0])
                     }
                     .tag(0)
 
                 WechatPractice()
                     .tabItem {
                         Image(systemName: "bubble.left.and.bubble.right.fill")
-                        Text("微信练习")
+                        Text(tabTitles[1])
                     }
                     .tag(1)
                 SystemPractice()
                     .tabItem {
                         Image(systemName: "airtag")
-                        Text("系统练习")
+                        Text(tabTitles[2])
                     }
                     .tag(2)
+                
+                AdvancedPractice()
+                    .tabItem {
+                        Image(systemName: "mountain.2.fill")
+                        Text(tabTitles[3])
+                    }
+                    .tag(3)
+                
             }
             .navigationTitle(tabTitles[tabVM.tab])
             .navigationBarTitleDisplayMode(.inline)

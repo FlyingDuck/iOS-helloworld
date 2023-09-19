@@ -8,16 +8,11 @@
 import SwiftUI
 
 struct WechatPractice: View {
-    
 //    @State var openSheet : Bool = false
     
-    
     var body: some View {
-        
-    
         NavigationStack {
             List {
-    
                 NavigationLink {
                     WechatPublicTimeline()
                 } label: {
@@ -35,7 +30,6 @@ struct WechatPractice: View {
                 } label: {
                     Text("微信-账单")
                 }
-                
             }
 //            .listStyle(.sidebar)
             .navigationTitle(Text("微信练习"))
@@ -52,10 +46,7 @@ struct WechatPractice: View {
 //            } content: {
 //                SettingView()
 //            }
-
         }
-        
-        
     }
 }
 

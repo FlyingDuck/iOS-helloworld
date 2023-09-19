@@ -35,6 +35,8 @@
 		3EAB42152A9B66A7005C3A67 /* Oxygen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB42122A9B66A7005C3A67 /* Oxygen-Regular.ttf */; };
 		3EAB42162A9B66A7005C3A67 /* Oxygen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB42132A9B66A7005C3A67 /* Oxygen-Bold.ttf */; };
 		3EAB42172A9B66A7005C3A67 /* Oxygen-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB42142A9B66A7005C3A67 /* Oxygen-Light.ttf */; };
+		3EBFE55C2AB9F5D900715936 /* AdvancedPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBFE55B2AB9F5D900715936 /* AdvancedPractice.swift */; };
+		3EBFE55E2AB9F7A800715936 /* SearchCalorieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBFE55D2AB9F7A800715936 /* SearchCalorieView.swift */; };
 		3EC440CD2A9213AD0000391E /* helloworldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC440CC2A9213AD0000391E /* helloworldApp.swift */; };
 		3EC440CF2A9213AD0000391E /* WeChatBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC440CE2A9213AD0000391E /* WeChatBill.swift */; };
 		3EC440D12A9213AF0000391E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC440D02A9213AF0000391E /* Assets.xcassets */; };
@@ -72,6 +74,8 @@
 		3EAB42132A9B66A7005C3A67 /* Oxygen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Bold.ttf"; sourceTree = "<group>"; };
 		3EAB42142A9B66A7005C3A67 /* Oxygen-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Light.ttf"; sourceTree = "<group>"; };
 		3EAB42182A9B671D005C3A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3EBFE55B2AB9F5D900715936 /* AdvancedPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedPractice.swift; sourceTree = "<group>"; };
+		3EBFE55D2AB9F7A800715936 /* SearchCalorieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCalorieView.swift; sourceTree = "<group>"; };
 		3EC440C92A9213AD0000391E /* helloworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC440CC2A9213AD0000391E /* helloworldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldApp.swift; sourceTree = "<group>"; };
 		3EC440CE2A9213AD0000391E /* WeChatBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatBill.swift; sourceTree = "<group>"; };
@@ -161,6 +165,7 @@
 				3E431C1C2AAC8537001C5AB1 /* Home.swift */,
 				3E148C2D2AADF39900B2A4DD /* NotificationView.swift */,
 				3E431C242AACAFBA001C5AB1 /* SettingView.swift */,
+				3EBFE55A2AB9F5C300715936 /* Advanced */,
 				3E7385BC2AADB6C60070E66F /* SwiftUIManual */,
 				3E431C1B2AAC8511001C5AB1 /* WeChat */,
 				3E967DE72AA4CCE9002919F5 /* Test */,
@@ -213,6 +218,15 @@
 				3E967DEB2AA4CF5B002919F5 /* postGenerator.swift */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		3EBFE55A2AB9F5C300715936 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				3EBFE55B2AB9F5D900715936 /* AdvancedPractice.swift */,
+				3EBFE55D2AB9F7A800715936 /* SearchCalorieView.swift */,
+			);
+			path = Advanced;
 			sourceTree = "<group>";
 		};
 		3EC440C02A9213AD0000391E = {
@@ -333,6 +347,7 @@
 				3E967DE92AA4CD6E002919F5 /* PostModel.swift in Sources */,
 				3E431C182AAC7C4B001C5AB1 /* ToggleTest.swift in Sources */,
 				3EC440CF2A9213AD0000391E /* WeChatBill.swift in Sources */,
+				3EBFE55C2AB9F5D900715936 /* AdvancedPractice.swift in Sources */,
 				3E431C212AAC8A06001C5AB1 /* SystemPractice.swift in Sources */,
 				3E431C162AAC74BF001C5AB1 /* WechatPost.swift in Sources */,
 				3E148C262AADBD8F00B2A4DD /* IndicatorView.swift in Sources */,
@@ -348,6 +363,7 @@
 				3E967DE12AA4BF5A002919F5 /* ListViewTest.swift in Sources */,
 				3E431C102AAC626D001C5AB1 /* ScrollViewTest.swift in Sources */,
 				3E148C2E2AADF39900B2A4DD /* NotificationView.swift in Sources */,
+				3EBFE55E2AB9F7A800715936 /* SearchCalorieView.swift in Sources */,
 				3E431C142AAC7026001C5AB1 /* ButtonTest.swift in Sources */,
 				3EC440DC2A923BB00000391E /* VStackTest.swift in Sources */,
 				3EC440CD2A9213AD0000391E /* helloworldApp.swift in Sources */,
