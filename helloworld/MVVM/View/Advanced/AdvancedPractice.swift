@@ -14,7 +14,7 @@ struct AdvancedPractice: View {
                 NavigationLink {
                     SearchCalorieView()
                 } label: {
-                    Text("网咯请求")
+                    Text("网咯请求 - 食物卡路里查询")
                 }
 
             }

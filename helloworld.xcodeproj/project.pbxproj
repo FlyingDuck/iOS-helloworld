@@ -37,6 +37,9 @@
 		3EAB42172A9B66A7005C3A67 /* Oxygen-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB42142A9B66A7005C3A67 /* Oxygen-Light.ttf */; };
 		3EBFE55C2AB9F5D900715936 /* AdvancedPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBFE55B2AB9F5D900715936 /* AdvancedPractice.swift */; };
 		3EBFE55E2AB9F7A800715936 /* SearchCalorieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBFE55D2AB9F7A800715936 /* SearchCalorieView.swift */; };
+		3EBFE5602ABB4C0A00715936 /* SearchCalorieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBFE55F2ABB4C0A00715936 /* SearchCalorieViewModel.swift */; };
+		3EBFE5622ABB4C5C00715936 /* CalorieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBFE5612ABB4C5C00715936 /* CalorieModel.swift */; };
+		3EBFE5642ABB50B100715936 /* FoodListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBFE5632ABB50B100715936 /* FoodListRowView.swift */; };
 		3EC440CD2A9213AD0000391E /* helloworldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC440CC2A9213AD0000391E /* helloworldApp.swift */; };
 		3EC440CF2A9213AD0000391E /* WeChatBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC440CE2A9213AD0000391E /* WeChatBill.swift */; };
 		3EC440D12A9213AF0000391E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC440D02A9213AF0000391E /* Assets.xcassets */; };
@@ -76,6 +79,9 @@
 		3EAB42182A9B671D005C3A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3EBFE55B2AB9F5D900715936 /* AdvancedPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedPractice.swift; sourceTree = "<group>"; };
 		3EBFE55D2AB9F7A800715936 /* SearchCalorieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCalorieView.swift; sourceTree = "<group>"; };
+		3EBFE55F2ABB4C0A00715936 /* SearchCalorieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCalorieViewModel.swift; sourceTree = "<group>"; };
+		3EBFE5612ABB4C5C00715936 /* CalorieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieModel.swift; sourceTree = "<group>"; };
+		3EBFE5632ABB50B100715936 /* FoodListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListRowView.swift; sourceTree = "<group>"; };
 		3EC440C92A9213AD0000391E /* helloworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC440CC2A9213AD0000391E /* helloworldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldApp.swift; sourceTree = "<group>"; };
 		3EC440CE2A9213AD0000391E /* WeChatBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatBill.swift; sourceTree = "<group>"; };
@@ -178,6 +184,7 @@
 			children = (
 				3E967DE82AA4CD6E002919F5 /* PostModel.swift */,
 				3E148C292AADCDD400B2A4DD /* IndicatorModel.swift */,
+				3EBFE5612ABB4C5C00715936 /* CalorieModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,6 +195,7 @@
 				3E148C2B2AADD89000B2A4DD /* TabViewModel.swift */,
 				3E148C272AADCCE800B2A4DD /* IndicatorViewModel.swift */,
 				3E148C2F2AADFB2C00B2A4DD /* NotificationViewModel.swift */,
+				3EBFE55F2ABB4C0A00715936 /* SearchCalorieViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -225,6 +233,7 @@
 			children = (
 				3EBFE55B2AB9F5D900715936 /* AdvancedPractice.swift */,
 				3EBFE55D2AB9F7A800715936 /* SearchCalorieView.swift */,
+				3EBFE5632ABB50B100715936 /* FoodListRowView.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -348,6 +357,7 @@
 				3E431C182AAC7C4B001C5AB1 /* ToggleTest.swift in Sources */,
 				3EC440CF2A9213AD0000391E /* WeChatBill.swift in Sources */,
 				3EBFE55C2AB9F5D900715936 /* AdvancedPractice.swift in Sources */,
+				3EBFE5642ABB50B100715936 /* FoodListRowView.swift in Sources */,
 				3E431C212AAC8A06001C5AB1 /* SystemPractice.swift in Sources */,
 				3E431C162AAC74BF001C5AB1 /* WechatPost.swift in Sources */,
 				3E148C262AADBD8F00B2A4DD /* IndicatorView.swift in Sources */,
@@ -370,7 +380,9 @@
 				3E431C122AAC6A82001C5AB1 /* VIPTag.swift in Sources */,
 				3E431C1F2AAC89F6001C5AB1 /* WechatPractice.swift in Sources */,
 				3E967DDF2AA4A05F002919F5 /* WechatPublicTimeline.swift in Sources */,
+				3EBFE5622ABB4C5C00715936 /* CalorieModel.swift in Sources */,
 				3E7385BE2AADB6ED0070E66F /* SwiftUIManual.swift in Sources */,
+				3EBFE5602ABB4C0A00715936 /* SearchCalorieViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
